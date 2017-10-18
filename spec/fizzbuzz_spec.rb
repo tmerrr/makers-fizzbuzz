@@ -53,4 +53,14 @@ describe '.fizzbuzz' do
 			expect(75.fizzbuzz).to eq 'fizzbuzz'
 		end
 	end
+
+	context "When the Integer is a multiple of 5" do 
+		it "returns 'buzz'" do
+			expect(5.fizzbuzz).to eq 'buzz'
+			expect(10.fizzbuzz).to eq 'buzz'
+			expect(15.fizzbuzz).to eq 'buzz'
+			expect(20.fizzbuzz).to eq 'buzz'
+			expect(25.fizzbuzz).to eq 'buzz'
+		end
+	end
 end

@@ -5,6 +5,7 @@ class Integer
 	end
 
 	def fizzbuzz
+		return 0 if self == 0
 		if self.div?(15)
 			'fizzbuzz'
 		elsif self.div?(5)

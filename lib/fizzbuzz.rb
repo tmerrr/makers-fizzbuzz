@@ -11,6 +11,8 @@ class Integer
 			'buzz'
 		elsif self.div?(3)
 			'fizz'
+		else
+			self
 		end
 	end
 end

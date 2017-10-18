@@ -31,4 +31,14 @@ describe ".div?" do
 			expect(0.div?(29)).to eq true
 		end
 	end
+
+	context "When 0 is the value passed in" do
+		it "returns false" do
+			expect(2.div?(0)).to eq false
+			expect(5.div?(0)).to eq false
+			expect(10.div?(0)).to eq false
+			expect(13.div?(0)).to eq false
+			expect(99.div?(0)).to eq false
+		end
+	end
 end

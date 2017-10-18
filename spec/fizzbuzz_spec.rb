@@ -63,4 +63,14 @@ describe '.fizzbuzz' do
 			expect(35.fizzbuzz).to eq 'buzz'
 		end
 	end
+
+	context "When the Integer is a multiple of 3" do
+		it "returns 'fizz'" do
+			expect(3.fizzbuzz).to eq 'fizz'
+			expect(6.fizzbuzz).to eq 'fizz'
+			expect(9.fizzbuzz).to eq 'fizz'
+			expect(12.fizzbuzz).to eq 'fizz'
+			expect(21.fizzbuzz).to eq 'fizz'
+		end
+	end
 end

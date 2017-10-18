@@ -58,9 +58,9 @@ describe '.fizzbuzz' do
 		it "returns 'buzz'" do
 			expect(5.fizzbuzz).to eq 'buzz'
 			expect(10.fizzbuzz).to eq 'buzz'
-			expect(15.fizzbuzz).to eq 'buzz'
 			expect(20.fizzbuzz).to eq 'buzz'
 			expect(25.fizzbuzz).to eq 'buzz'
+			expect(35.fizzbuzz).to eq 'buzz'
 		end
 	end
 end

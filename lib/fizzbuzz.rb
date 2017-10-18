@@ -5,6 +5,10 @@ class Integer
 	end
 
 	def fizzbuzz
-		'fizzbuzz'
+		if self.div?(15)
+			'fizzbuzz'
+		elsif self.div?(5)
+			'buzz'
+		end
 	end
 end

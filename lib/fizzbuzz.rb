@@ -9,6 +9,8 @@ class Integer
 			'fizzbuzz'
 		elsif self.div?(5)
 			'buzz'
+		elsif self.div?(3)
+			'fizz'
 		end
 	end
 end

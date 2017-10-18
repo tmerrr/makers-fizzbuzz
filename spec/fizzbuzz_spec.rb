@@ -83,4 +83,10 @@ describe '.fizzbuzz' do
 			expect(31.fizzbuzz).to eq 31
 		end
 	end
+
+	context "Edge conditions" do
+		it "returns 0" do
+			expect(0.fizzbuzz).to eq 0
+		end
+	end
 end

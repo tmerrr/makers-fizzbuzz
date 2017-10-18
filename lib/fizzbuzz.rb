@@ -17,3 +17,6 @@ class Integer
 		end
 	end
 end
+
+# => Just to show it working:
+(1..100).to_a.each { |num| puts "#{num} = #{num.fizzbuzz}"}

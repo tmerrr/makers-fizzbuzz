@@ -73,4 +73,14 @@ describe '.fizzbuzz' do
 			expect(21.fizzbuzz).to eq 'fizz'
 		end
 	end
+
+	context "When the Integer meets none of the above conditions" do
+		it "returns the number" do
+			expect(1.fizzbuzz).to eq 1
+			expect(2.fizzbuzz).to eq 2
+			expect(4.fizzbuzz).to eq 4
+			expect(17.fizzbuzz).to eq 17
+			expect(31.fizzbuzz).to eq 31
+		end
+	end
 end

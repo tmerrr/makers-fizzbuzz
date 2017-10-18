@@ -42,3 +42,15 @@ describe ".div?" do
 		end
 	end
 end
+
+describe '.fizzbuzz' do
+	context "When the integer is a multiple of 15" do
+		it "returns 'fizzbuzz'" do
+			expect(15.fizzbuzz).to eq 'fizzbuzz'
+			expect(30.fizzbuzz).to eq 'fizzbuzz'
+			expect(45.fizzbuzz).to eq 'fizzbuzz'
+			expect(60.fizzbuzz).to eq 'fizzbuzz'
+			expect(75.fizzbuzz).to eq 'fizzbuzz'
+		end
+	end
+end
